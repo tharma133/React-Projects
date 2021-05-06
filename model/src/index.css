@@ -133,6 +133,7 @@ main {
   row-gap: 1rem;
   transition: 0.3s linear;
   transform: translateX(-100%);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.5);
 }
 
 .show-sidebar {

@@ -25,7 +25,7 @@ function App() {
         <input
           type='number'
           name='text'
-          value='0'
+          value={value}
           className='input'
           onChange={(e) => setValue(e.target.value)}
         />
