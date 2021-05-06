@@ -1,1 +1,1 @@
-# Tour ( https://tour-reactapp.netlify.app )
+# Tour ( https://tour-reactapp.netlify.app/ )
