@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f1f5f8;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading h1 {
+  font-size: 3rem;
+}
+
+.header {
+  margin-top: 5rem;
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: #2caeba;
+  margin: 0 auto;
+}
+
+.container {
+  width: 80vw;
+  margin: 5rem auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 10px 1rem;
+  font-size: 1.5rem;
+  padding: 0.25rem 0;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  color: #2caeba;
+  box-shadow: 0 2px #2caeba;
+  transition: 0.3s ease;
+}
+
+.btn.active {
+  color: #2caeba;
+  box-shadow: 0 2px #2caeba;
+}
+
+.details {
+  margin-top: 1rem;
+}
+
+.details h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.details h4 {
+  margin: 5px 0;
+  width: fit-content;
+  font-size: 1.2rem;
+  color: #617d98;
+  background: #dae2ec;
+  padding: 2px 5px;
+}
+
+.details p {
+  color: #617d98;
+  letter-spacing: 0.1rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.duties {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  color: #2caeba;
+  font-size: 1.5rem;
+}
+
+.duties p {
+  color: #617d98;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 990px) {
+  .container {
+    gap: 2rem;
+    flex-direction: row;
+  }
+  .btns {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btn {
+    padding: 0 1rem;
+  }
+  .btn:hover {
+    box-shadow: -2px 0 #2caeba;
+    border-bottom: none;
+  }
+  .btn.active {
+    box-shadow: -2px 0px #2caeba;
+
+    border-bottom: none;
+  }
+}

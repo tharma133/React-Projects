@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: #f1f5f8;
+}
+
+.section-center {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+  padding: 2rem 0;
+  margin: 0 auto;
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grocery h2 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+
+.text {
+  width: 250px;
+  padding: 2px 3px;
+  color: #617d98;
+  background-color: #dae2ec;
+  border: 2px solid transparent;
+  outline: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.text:focus {
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.btn {
+  background-color: #a5d5f8;
+  letter-spacing: 0.1rem;
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+  font-size: 1rem;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
+}
+
+.grocery-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 3rem 0;
+}
+
+.grocery-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.edit-btn {
+  color: green;
+  background: transparent;
+}
+
+.delete-btn {
+  color: red;
+  background: transparent;
+}
+
+.clear-btn {
+  width: fit-content;
+  margin: 2rem auto 0;
+  background-color: transparent;
+  color: red;
+}
+
+.alert-text {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  margin: 0 4rem;
+  padding: 2px 0;
+}
+
+.alert-text.success {
+  background-color: rgb(155, 211, 155);
+}
+
+.alert-text.danger {
+  background-color: rgb(238, 170, 170);
+}

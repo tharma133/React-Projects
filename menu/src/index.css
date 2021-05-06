@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eaeaea;
+}
+
+main {
+  min-height: 100vh;
+  width: 80vw;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin: 5rem auto 1rem;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.underline {
+  width: 5rem;
+  height: 0.3rem;
+  background: #c59d5f;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #c59d5f;
+  border-radius: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.btn {
+  margin-left: 10px;
+  text-transform: capitalize;
+  color: #c59d5f;
+  outline: none;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.menu-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.price {
+  color: #c59d5f;
+}
+
+.info {
+  color: #857c7c;
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
