@@ -1,1 +1,1 @@
-# Stripe-menu ( https://modal-sidebar-app.netlify.app/ )
+# Stripe-menu ( https://stripe-menu-app.netlify.app/ )
